@@ -1,0 +1,39 @@
+*****Compte rendu semaine 1*****
+25/01/2018
+Mise en place de l'organisation et premiers objectifs.
+
+Répartition des rôles:
+	CK: Ilyes
+	Administration github: cf Trello
+	Administration Trello: Ilyes
+
+Definition of Done:
+- Le programme s'éxécute
+- Le programme est documenté de façon détaillée
+- Un test devra être fourni avec le programme
+- Ce test doit illustrer d'exemples d'utilisation le fonctionnement du programme pour faciliter la QA
+
+Stories:
+Niveau de difficulté - Story
+***Prioritaires***
+1 - Administrer le compte github (inviter le groupe)
+1 - Administrer le compte Trello (inviter le groupe, reporter l'avancement)
+1 - Administrer le compte Slack (inviter le groupe)
+2 - Créer une arène vide, pouvant contenir des objets 3D (dont la structure de donnée associée doit aussi être implémentée)
+2 - Créer un robot (de type objet 3D) qui doit avoir une vitesse et une orientation
+1 - Ajouter un pavé
+1 - Ajouter un sol
+1 - Deplacer le robot de (dx, dy, dz)
+1 - Tourner le robot d'un certain angle
+***Secondaires***
+1 - Trouver un objet à des coordonnées (x, y, z) 
+1 - Supprimer un objet de l'arène
+1 - Ajouter une sphère
+1 - Ajouter un cylindre
+***A préciser***
+1 - Ajouter un mur
+1 - Ajouter un obstacle
+1 - Ajouter des senseurs sur le robot
+
+Remarque:
+J'ai pas bien noté les niveaux de difficulté de toutes nos stories. Grossomodo c'est ça mais si certaines tâches on été mal évaluées on en reparlera
