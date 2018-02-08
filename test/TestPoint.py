@@ -1,15 +1,13 @@
 from point.Point import *
 
-#Modification/acces des attributs
+#Modification acces des attributs
 A=Point(0,0,0)
 B=Point(1,2,3)
-
-print("A = {}, B = {}".format(A,B))
-A.setPosition(B)
-print("deplacement de A a la position de B: A = {}".format(A))
+#print("a = ".format(A))
+A.setPosition(Point(0,0,1))
 A.deplacer(Point(0,1,0))
-print("deplacement de A de {} : A = {}".format(Point(0,1,0),A))
-print("A + B = {}".format(A+B))
-
-print("coordonnee y: {}".format(A.getCoord()[1]))
-print("Attribut inexistant: {}".format(A.att))
+print("deplacement de a = {}".format(A))
+print("coordonnee y: {}".format(A.y))
+print("a = {}".format(A))
+print("b = {}".format(B))
+print("a + b = {}".format(A+B))

@@ -1,4 +1,4 @@
-from arene.Arene import *
+
 
 #Creation d'une arene et ajout de n objets
 a=Arene()

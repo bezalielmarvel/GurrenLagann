@@ -19,6 +19,6 @@ print(o)
 
 #Acces aux attributs
 print("Acces a la liste de sommets")
-l=o.getSommets()
+l=o.sommets
 print(l)
 

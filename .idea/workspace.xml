@@ -1,21 +1,472 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="" />
+    <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/affichage/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/Polygone3D.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/robotRep/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/GurrenLagann.iml" afterPath="$PROJECT_DIR$/.idea/GurrenLagann.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gurren-Lagann-Project/Objet3D/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/.idea/Arene.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/Arene.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arene/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/.idea/Objet3D.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/Objet3D.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objet3D/trouverObjet3D.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/.idea/Point.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/Fonctions.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/Point.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/vecteur/Vecteur.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/point/vecteur/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/TestArene.py" afterPath="$PROJECT_DIR$/test/TestArene.py" />
+      <change beforePath="$PROJECT_DIR$/test/TestObjet3D.py" afterPath="$PROJECT_DIR$/test/TestObjet3D.py" />
+      <change beforePath="$PROJECT_DIR$/test/TestPoint.py" afterPath="$PROJECT_DIR$/test/TestPoint.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GurrenLagann$Fonctions.coverage" NAME="Fonctions Coverage Results" MODIFIED="1518104637076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D/pointRep" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$interfaceRobot.coverage" NAME="interfaceRobot Coverage Results" MODIFIED="1518104646125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/affichage/deuxD/interface" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Arene.coverage" NAME="Arene Coverage Results" MODIFIED="1518104626978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1518085912560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/affichage/deuxD/interface" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Objet3D.coverage" NAME="Objet3D Coverage Results" MODIFIED="1518104613575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Pave.coverage" NAME="Pave Coverage Results" MODIFIED="1518104611189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Polygone3D.coverage" NAME="Polygone3D Coverage Results" MODIFIED="1518104608551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Point.coverage" NAME="Point Coverage Results" MODIFIED="1518104633526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D/pointRep" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Vecteur.coverage" NAME="Vecteur Coverage Results" MODIFIED="1518104630512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D/pointRep" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$interfacePave.coverage" NAME="interfacePave Coverage Results" MODIFIED="1518104653415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/affichage/deuxD/interface" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1518085248945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pyglet" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Robot.coverage" NAME="Robot Coverage Results" MODIFIED="1518104600754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robotRep" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$Vue2D.coverage" NAME="Vue2D Coverage Results" MODIFIED="1518104643139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/affichage/deuxD/vue2DRep" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$interfacePave__1_.coverage" NAME="interfacePave (1) Coverage Results" MODIFIED="1518087428939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/affichage/deuxD/interface" />
+    <SUITE FILE_PATH="coverage/GurrenLagann$trouverObjet3D.coverage" NAME="trouverObjet3D Coverage Results" MODIFIED="1518104605941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geometrie3D" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Vecteur.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pave.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/Pave.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Polygone3D.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/Polygone3D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Point.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfacePave.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fonctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Fonctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vue2D.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfaceRobot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arene.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/Arene.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Objet3D.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometrie3D/Objet3D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/2D/interface/__init__.py" />
+        <option value="$PROJECT_DIR$/2D/vue2D/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/2D/interface/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/2D/interface/interfaceRobot.py" />
+        <option value="$PROJECT_DIR$/affichage/2D/interface/interfacePave.py" />
+        <option value="$PROJECT_DIR$/affichage/troisD/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/arene/Arene.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/objet3D/Objet3D.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/arene/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/interface/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/objet3D/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/objet3D/trouverObjet3D.py" />
+        <option value="$PROJECT_DIR$/affichage/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/vue2D/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/pave/__init__.py" />
+        <option value="$PROJECT_DIR$/robot/__init__.py" />
+        <option value="$PROJECT_DIR$/robot/Robot.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/point/vecteur/Vecteur.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/point/vecteur/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/point/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/pave/Pave.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/point/Point.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/vue2D/Vue2D.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/trouverObjet3D.py" />
+        <option value="$PROJECT_DIR$/robot/RobotMain.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/point/Vecteur.py" />
+        <option value="$PROJECT_DIR$/robotRep/Robot.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/pointRep/__init__.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py" />
+        <option value="$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/Objet3D.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/__init__.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/Polygone3D.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/Pave.py" />
+        <option value="$PROJECT_DIR$/geometrie3D/Arene.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="affichage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="affichage" type="462c0819:PsiDirectoryNode" />
+              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="affichage" type="462c0819:PsiDirectoryNode" />
+              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="affichage" type="462c0819:PsiDirectoryNode" />
+              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
+              <item name="vue2DRep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="CR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="geometrie3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="geometrie3D" type="462c0819:PsiDirectoryNode" />
+              <item name="pointRep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
+              <item name="robotRep" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geometrie3D" />
+      <recent name="$PROJECT_DIR$/geometrie3D/point" />
+      <recent name="$PROJECT_DIR$/affichage" />
+      <recent name="$PROJECT_DIR$/2D/vue2D" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.interfacePave">
+    <configuration name="Fonctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometrie3D/pointRep" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GurrenLagann" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometrie3D/pointRep/Fonctions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Point" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geometrie3D/pointRep" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GurrenLagann" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometrie3D/pointRep/Point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Vue2D" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/affichage/deuxD/vue2DRep" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GurrenLagann" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="interfacePave" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/affichage/deuxD/interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GurrenLagann" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="interfaceRobot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/affichage/deuxD/interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GurrenLagann" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Point" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Fonctions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Vue2D" />
+      <item index="3" class="java.lang.String" itemvalue="Python.interfaceRobot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.interfacePave" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.interfacePave" />
+        <item index="1" class="java.lang.String" itemvalue="Python.interfaceRobot" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Vue2D" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Fonctions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Point" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="" />
       <created>1517346044252</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -23,8 +474,347 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49444443" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Pave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotRep/Robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Arene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1518104060069" expanded="true" signature="0:54" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arene/Arene.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/2D/vue2D/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/2D/interface/interfaceRobot.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/2D/interface/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/2D/interface/interfacePave.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/troisD/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyglet/triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/arene/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/geometrie3D/objet3D/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pave/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotRep/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/point/vecteur/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/vue2DRep/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1518104060069" expanded="true" signature="0:54" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotRep/Robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/trouverObjet3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Polygone3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Pave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Objet3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/Arene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometrie3D/pointRep/Fonctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

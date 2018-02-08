@@ -1,1 +1,0 @@
-from point.Point import *
