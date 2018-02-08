@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/affichage/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/Polygone3D.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/robotRep/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/GurrenLagann.iml" afterPath="$PROJECT_DIR$/.idea/GurrenLagann.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gurren-Lagann-Project/Objet3D/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/.idea/Arene.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/Arene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/arene/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/.idea/Objet3D.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/Objet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/objet3D/trouverObjet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/.idea/Point.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/Fonctions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/Point.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/vecteur/Vecteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/point/vecteur/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestArene.py" afterPath="$PROJECT_DIR$/test/TestArene.py" />
-      <change beforePath="$PROJECT_DIR$/test/TestObjet3D.py" afterPath="$PROJECT_DIR$/test/TestObjet3D.py" />
-      <change beforePath="$PROJECT_DIR$/test/TestPoint.py" afterPath="$PROJECT_DIR$/test/TestPoint.py" />
-    </list>
+    <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,43 +233,7 @@
             <path>
               <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
               <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-              <item name="vue2DRep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
               <item name="CR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="geometrie3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GurrenLagann" type="462c0819:PsiDirectoryNode" />
-              <item name="geometrie3D" type="462c0819:PsiDirectoryNode" />
-              <item name="pointRep" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GurrenLagann" type="b2602c69:ProjectViewProjectNode" />
@@ -476,7 +404,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
@@ -484,7 +411,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
