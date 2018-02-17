@@ -1,4 +1,4 @@
-from geometrie3D.Arene import * #aller dans le fichier
+from .pointRep import *
 from .Arene import *
 from .Objet3D import *
 from .Pave import *

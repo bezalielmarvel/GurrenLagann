@@ -1,4 +1,4 @@
-from geometrie3D import Objet3D
+from geometrie3D.Objet3D import *
 from geometrie3D.pointRep import Vecteur
 from geometrie3D.pointRep import Point
 from geometrie3D.Polygone3D import *
@@ -15,6 +15,9 @@ class Pave(Polygone3D):
         Constructeur ajoutant les 8 sommets autour du centre par defaut: (0,0,0)
         """
         Polygone3D.__init__(self)
+        self.longueur = longueur
+        self.largeur = largeur
+        self.hauteur = hauteur
         self.addSommet(Point(self.centre.x - longueur / 2, self.centre.y - largeur / 2, self.centre.z + hauteur / 2))
         self.addSommet(Point(self.centre.x + longueur / 2, self.centre.y - largeur / 2, self.centre.z + hauteur / 2))
         self.addSommet(Point(self.centre.x + longueur / 2, self.centre.y + largeur / 2, self.centre.z + hauteur / 2))
