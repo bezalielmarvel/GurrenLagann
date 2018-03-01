@@ -1,6 +1,6 @@
-from gl_lib.sim.geometrie3D import *
-from gl_lib.sim.geometrie3D.pointRep import *
-from gl_lib.sim.robotRep.capteur import *
+from gl_lib.sim.geometrie import *
+from gl_lib.sim.geometrie.point import *
+from gl_lib.sim.robot.capteur import *
 from math import *
 
 #Creation d'une arene et ajout de n objets

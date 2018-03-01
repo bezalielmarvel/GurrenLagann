@@ -1,7 +1,7 @@
-from gl_lib.sim.robotRep import *
-from gl_lib.sim.geometrie3D.pointRep import *
-from gl_lib.sim.geometrie3D import *
-from gl_lib.sim.robotRep.strategie.deplacement import *
+from gl_lib.sim.robot import *
+from gl_lib.sim.geometrie.point import *
+from gl_lib.sim.geometrie import *
+from gl_lib.sim.robot.strategie.deplacement import *
 from math import pi
 
 a = Arene()

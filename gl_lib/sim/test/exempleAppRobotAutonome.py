@@ -1,8 +1,8 @@
-from gl_lib.sim.affichage.deuxD.interface import *
-from gl_lib.sim.robotRep.RobotAutonome import *
-from gl_lib.sim.affichage.deuxD.vue2DRep import *
-from gl_lib.sim.geometrie3D.pointRep import *
-from gl_lib.sim.robotRep.strategie.deplacement import *
+from gl_lib.sim.affichage.d2.interface import *
+from gl_lib.sim.robot.RobotAutonome import *
+from gl_lib.sim.affichage.d2.vue import *
+from gl_lib.sim.geometrie.point import *
+from gl_lib.sim.robot.strategie.deplacement import *
 
 r=RobotAutonome(Pave(50,50,0), Objet3D(), Objet3D(), Vecteur(0,-1,0))
 r.stratDeplacement=DeplacementSimple(r)

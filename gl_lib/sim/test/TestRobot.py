@@ -1,7 +1,7 @@
 import unittest
-from gl_lib.sim.robotRep import Robot
-from gl_lib.sim.geometrie3D import Pave, Objet3D
-from gl_lib.sim.geometrie3D.pointRep import Vecteur
+from gl_lib.sim.robot import Robot
+from gl_lib.sim.geometrie import Pave, Objet3D
+from gl_lib.sim.geometrie.point import Vecteur
 
 
 class TestRobot(unittest.TestCase):

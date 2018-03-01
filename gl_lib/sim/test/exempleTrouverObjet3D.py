@@ -1,11 +1,11 @@
 import sys
 sys.path.append('..')
 
-from gl_lib.sim.geometrie3D import Arene
-from gl_lib.sim.geometrie3D import Objet3D
-from gl_lib.sim.geometrie3D import Polygone3D
-from gl_lib.sim.geometrie3D import trouverObjet3D
-from gl_lib.sim.geometrie3D.pointRep import Point
+from gl_lib.sim.geometrie import Arene
+from gl_lib.sim.geometrie import Objet3D
+from gl_lib.sim.geometrie import Polygone3D
+from gl_lib.sim.geometrie import trouverObjet3D
+from gl_lib.sim.geometrie.point import Point
 
 
 

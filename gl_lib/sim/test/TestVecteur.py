@@ -1,4 +1,4 @@
-from gl_lib.sim.geometrie3D.pointRep import Vecteur, Point
+from gl_lib.sim.geometrie.point import Vecteur, Point
 import unittest
 from math import *
 

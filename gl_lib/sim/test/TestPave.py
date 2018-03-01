@@ -1,4 +1,4 @@
-from gl_lib.sim.geometrie3D import Pave
+from gl_lib.sim.geometrie import Pave
 import unittest
 
 class TestPave(unittest.TestCase):

@@ -2,81 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/VecteurPositionne.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/__init__.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Accelerometre.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AppRobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AppRobotAutonome.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/interface/AppRobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/interface/AppRobotAutonome.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/interface/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2DArene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2DPave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2DRobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2DVecteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/deuxD/vue2DRep/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/Camera.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/Main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/Model.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/Red.svg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/Window.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/screenshot.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/affichage/troisD/white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/Arene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/BanqueArenes/arene1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/Objet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/Pave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/Polygone3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointDansPolygone.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/.idea/Point.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/Fonctions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/VecteurPositionne.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/pointRep/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geometrie3D/trouverObjet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/Robot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/RobotAutonome.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/RobotPhysique.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/Tete.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/capteur/Accelerometre.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/capteur/Camera.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/capteur/Capteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/capteur/CapteurIR.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/capteur/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/Strategie.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/deplacement/DeplacementSimple.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/deplacement/DeplacementSimpleAmeliore.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/deplacement/StrategieDeplacement.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/robotRep/strategie/deplacement/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestArene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestPave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestPoint.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestRobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/TestVecteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleAppRobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleAppRobotAutonome.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleArene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleDeplacementSimpleAmeliore.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleObjet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleSauvegardeArene.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleTete.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleTrouverObjet3D.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/exempleVue3DPave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/testCollisionVecteur.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/testDeplacementSimple.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/testObjet3D_v2.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/testTriObjets.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/#AppRobot.py#" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobot.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobotAutonome.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/interfacePave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/interfacePave.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DArene.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DPave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DPave.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DRobot.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DVecteur.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/#Main.py#" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/#Main.py#" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Camera.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Camera.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Main.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Main.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Model.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Model.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Red.svg.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Red.svg.png" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Window.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Window.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/screenshot.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/screenshot.png" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/white.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/white.png" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Arene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Arene.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/BanqueArenes/arene1.txt" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/BanqueArenes/arene1.txt" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Objet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Pave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Pave.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Polygone3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Polygone3D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointDansPolygone.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/Point.iml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/Point.iml" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/misc.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/modules.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/workspace.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/Fonctions.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/fonctions.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/Vecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/Vecteur.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/trouverObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/trouverObjet3D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/Robot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/Robot.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/RobotAutonome.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotPhysique.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/RobotPhysique.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/Tete.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/Tete.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Accelerometre.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Accelerometre.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Camera.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Camera.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Capteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Capteur.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/CapteurIR.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/CapteurIR.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/Strategie.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/Strategie.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimple.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/DeplacementSimple.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimpleAmeliore.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/DeplacementSimpleAmeliore.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/StrategieDeplacement.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/StrategieDeplacement.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestArene.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestPave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestPave.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestPoint.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestPoint.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleObjet3D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleTrouverObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleTrouverObjet3D.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py" />
+      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,106 +124,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exempleVue3DPave.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gl_lib/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestArene.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestArene.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCollisionVecteur.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py">
+      <file leaf-file-name="exempleAppRobot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testDeplacementSimple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testObjet3D_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPave.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestPave.py">
+      <file leaf-file-name="pointDansPolygone.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPoint.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestPoint.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRobot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py">
+      <file leaf-file-name="Vue2DVecteur.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DVecteur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testTriObjets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py">
+      <file leaf-file-name="Objet3D.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestVecteur.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -231,54 +193,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Objet</find>
+      <find>fonctions</find>
+      <find>clone</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geometrie3D/point/Point.py" />
-        <option value="$PROJECT_DIR$/affichage/deuxD/vue2D/Vue2D.py" />
-        <option value="$PROJECT_DIR$/robot/RobotMain.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/point/Vecteur.py" />
-        <option value="$PROJECT_DIR$/robotRep/Robot.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/pointRep/Vecteur.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/pointRep/__init__.py" />
-        <option value="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2D.py" />
-        <option value="$PROJECT_DIR$/affichage/deuxD/interface/interfacePave.py" />
-        <option value="$PROJECT_DIR$/affichage/deuxD/interface/interfaceRobot.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/__init__.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/Polygone3D.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/Pave.py" />
-        <option value="$PROJECT_DIR$/test/testTrouverObjet3D.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/Objet3D.py" />
-        <option value="$PROJECT_DIR$/test/testObjet3D_v2.py" />
-        <option value="$PROJECT_DIR$/test/pointDansPolygone.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/pointDansPolygone.py" />
-        <option value="$PROJECT_DIR$/TestArene.py" />
-        <option value="$PROJECT_DIR$/affichage/deuxD/vue2DRep/Vue2DRobot.py" />
-        <option value="$PROJECT_DIR$/test/test2D3D.py" />
-        <option value="$PROJECT_DIR$/test/testAppRobot.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/Arene.py" />
-        <option value="$PROJECT_DIR$/geometrie3D/trouverObjet3D.py" />
-        <option value="$PROJECT_DIR$/affichage/troisD/Main.py" />
-        <option value="$PROJECT_DIR$/affichage/troisD/Model.py" />
         <option value="$PROJECT_DIR$/AppRobot.py" />
         <option value="$PROJECT_DIR$/affichage/troisD/Camera.py" />
         <option value="$PROJECT_DIR$/affichage/troisD/Window.py" />
         <option value="$PROJECT_DIR$/test/exempleAppRobot.py" />
         <option value="$PROJECT_DIR$/gurrenlagann_lib/affichage/deuxD/interface/AppRobot.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DArene.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobotAutonome.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DPave.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Main.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DVecteur.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DRobot.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Accelerometre.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/Robot.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotAutonome.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotPhysique.py" />
-        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/Tete.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/TestArene.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py" />
@@ -288,6 +222,41 @@
         <option value="$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/VecteurPositionne.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Objet3D.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/Robot.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotAutonome.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Camera.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/Tete.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/StrategieDeplacement.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimple.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimpleAmeliore.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DVecteur.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobotAutonome.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Window.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Model.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Pave.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/CapteurIR.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DPave.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DRobot.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DArene.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Arene.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/geometrie3D/__init__.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotPhysique.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobot.py" />
+        <option value="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" />
       </list>
     </option>
   </component>
@@ -318,8 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +297,11 @@
             <path>
               <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
               <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,75 +315,14 @@
               <item name="Projet" type="462c0819:PsiDirectoryNode" />
               <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
               <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="deuxD" type="462c0819:PsiDirectoryNode" />
-              <item name="vue2DRep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="affichage" type="462c0819:PsiDirectoryNode" />
-              <item name="troisD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="geometrie3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="robotRep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="robotRep" type="462c0819:PsiDirectoryNode" />
-              <item name="capteur" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="geometrie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,6 +331,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/ilyes/2I013/Projet/gl_lib/sim/test/exempleAppRobot.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -445,26 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/affichage/troisD" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GurrenLagann" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/affichage/troisD/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.exempleAppRobot">
     <configuration name="exempleAppRobot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -472,89 +365,103 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_lib/sim/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GurrenLagann" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/exempleAppRobot.py" />
+      <module name="Projet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="exempleAppRobotAutonome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exempleDeplacementSimpleAmeliore" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_lib/sim/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GurrenLagann" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/exempleAppRobotAutonome.py" />
+      <module name="Projet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="testAppRobot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exempleSauvegardeArene" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_lib/sim/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GurrenLagann" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testAppRobot.py" />
+      <module name="Projet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="testAppRobotAutonome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exempleTete" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_lib/sim/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GurrenLagann" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testAppRobotAutonome.py" />
+      <module name="Projet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exempleVue3DPave" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_lib/sim/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Projet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.testAppRobot" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testAppRobotAutonome" />
-      <item index="3" class="java.lang.String" itemvalue="Python.exempleAppRobot" />
-      <item index="4" class="java.lang.String" itemvalue="Python.exempleAppRobotAutonome" />
+      <item index="0" class="java.lang.String" itemvalue="Python.exempleDeplacementSimpleAmeliore" />
+      <item index="1" class="java.lang.String" itemvalue="Python.exempleSauvegardeArene" />
+      <item index="2" class="java.lang.String" itemvalue="Python.exempleTete" />
+      <item index="3" class="java.lang.String" itemvalue="Python.exempleVue3DPave" />
+      <item index="4" class="java.lang.String" itemvalue="Python.exempleAppRobot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exempleAppRobot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exempleAppRobotAutonome" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testAppRobot" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testAppRobotAutonome" />
+        <item index="0" class="java.lang.String" itemvalue="Python.exempleAppRobot" />
+        <item index="1" class="java.lang.String" itemvalue="Python.exempleVue3DPave" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exempleTete" />
+        <item index="3" class="java.lang.String" itemvalue="Python.exempleSauvegardeArene" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exempleDeplacementSimpleAmeliore" />
       </list>
     </recent_temporary>
   </component>
@@ -572,14 +479,15 @@
       <option name="presentableId" value="Default" />
       <updated>1517346044252</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestVecteur_py - 2018.02.15 at 12h 24m 01s.xml">
-      <configuration name="Unittests in TestVecteur.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPoint_py - 2018.03.01 at 22h 26m 00s.xml">
+      <configuration name="Unittests in TestPoint.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestVecteur_py - 2018.02.18 at 16h 35m 45s.xml">
-      <configuration name="Unittests in TestVecteur.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPoint_py - 2018.03.01 at 22h 27m 22s.xml">
+      <configuration name="Unittests in TestPoint.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_testObjet3D_v2_py - 2018.02.12 at 19h 53m 47s.xml">
       <configuration name="Unittests in testObjet3D_v2.py" configurationId="tests" />
@@ -609,17 +517,17 @@
   <component name="ToolWindowManager">
     <frame x="70" y="25" width="1374" height="722" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25947955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25947955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.50855017" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.4914498" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.47325477" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.52936804" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8979933" sideWeight="0.4914498" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50501674" sideWeight="0.47063196" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966556" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -630,6 +538,28 @@
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.52936804" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.47063196" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25947955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.4914498" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -656,371 +586,97 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AppRobot.py" />
-    <entry file="file://$PROJECT_DIR$/affichage/troisD/Camera.py" />
-    <entry file="file://$PROJECT_DIR$/affichage/troisD/Model.py" />
-    <entry file="file://$PROJECT_DIR$/affichage/troisD/Window.py" />
-    <entry file="file://$PROJECT_DIR$/geometrie3D/pointDansPolygone.py" />
-    <entry file="file://$PROJECT_DIR$/gurrenlagann_lib/affichage/deuxD/interface/AppRobot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/D2/vues/Vue2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobot.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/interfacePave.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobotAutonome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/interfacePave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DArene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DPave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DVecteur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DRobot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Red.svg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/troisD/screenshot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie3D/Arene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie3D/Objet3D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie3D/Pave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie3D/Polygone3D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointDansPolygone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Accelerometre.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Capteur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/CapteurIR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/Robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/RobotAutonome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/RobotPhysique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robotRep/Tete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleObjet3D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleTrouverObjet3D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestArene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d3/Window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d3/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="116">
+          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestPave.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d3/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/point/VecteurPositionne.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Pave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Polygone3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/trouverObjet3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/capteur/Accelerometre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/capteur/Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/capteur/Capteur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/capteur/CapteurIR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1033,29 +689,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/point/fonctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DPave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DRobot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DArene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="89" lean-forward="false" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/DeplacementSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="67" lean-forward="false" selection-start-line="0" selection-start-column="67" selection-end-line="0" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobotAutonome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py">
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/point/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Arene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/capteur/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/strategie/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/point/Vecteur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="125" column="20" lean-forward="false" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/Tete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/Robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/RobotAutonome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/robot/RobotPhysique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py" />
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib.linux-x86_64-2.7/gurrenlagann_lib/test/exempleArene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DVecteur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
-from gl_lib.sim.geometrie3D.pointRep import Point
-from gl_lib.sim.geometrie3D.pointRep import Vecteur
+from gl_lib.sim.geometrie.point import Point
+from gl_lib.sim.geometrie.point import Vecteur
 import unittest
 
 class TestPoint(unittest.TestCase):

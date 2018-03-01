@@ -1,5 +1,5 @@
-from gl_lib.sim.robotRep.capteur import *
-from gl_lib.sim.geometrie3D.pointRep import *
+from gl_lib.sim.robot.capteur import *
+from gl_lib.sim.geometrie.point import *
 
 pt1 = Point(10,10,0)
 pt2 = Point(20,20,0)

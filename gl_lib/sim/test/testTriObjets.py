@@ -1,5 +1,5 @@
-from gl_lib.sim.geometrie3D import *
-from gl_lib.sim.geometrie3D.pointRep import *
+from gl_lib.sim.geometrie import *
+from gl_lib.sim.geometrie.point import *
 import unittest
 
 class TestTrieObjet(unittest.TestCase):
