@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca63d49-a48b-4d69-887e-7cf6807a60a4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/VecteurPositionne.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/#AppRobot.py#" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobot.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/AppRobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobotAutonome.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/interface/interfacePave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/interfacePave.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DArene.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DPave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DPave.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DRobot.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/Vue2DVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d2/vue/Vue2DVecteur.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/deuxD/vue2DRep/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/#Main.py#" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/#Main.py#" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Camera.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Camera.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Main.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Main.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Model.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Model.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Red.svg.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Red.svg.png" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/Window.py" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/Window.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/screenshot.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/screenshot.png" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/affichage/troisD/white.png" afterPath="$PROJECT_DIR$/gl_lib/sim/affichage/d3/white.png" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Arene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Arene.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/BanqueArenes/arene1.txt" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/BanqueArenes/arene1.txt" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Objet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Pave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Pave.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/Polygone3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/Polygone3D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointDansPolygone.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/Point.iml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/Point.iml" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/misc.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/modules.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/.idea/workspace.xml" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/Fonctions.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/fonctions.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/Vecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/point/Vecteur.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/pointRep/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/geometrie3D/trouverObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/geometrie/trouverObjet3D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/Robot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/Robot.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/RobotAutonome.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/RobotPhysique.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/RobotPhysique.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/Tete.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/Tete.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Accelerometre.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Accelerometre.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Camera.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Camera.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/Capteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/Capteur.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/CapteurIR.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/capteur/CapteurIR.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/capteur/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/Strategie.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/Strategie.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/__init__.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimple.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/DeplacementSimple.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/DeplacementSimpleAmeliore.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/DeplacementSimpleAmeliore.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/StrategieDeplacement.py" afterPath="$PROJECT_DIR$/gl_lib/sim/robot/strategie/deplacement/StrategieDeplacement.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/robotRep/strategie/deplacement/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestArene.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestPave.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestPave.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestPoint.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestPoint.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestRobot.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/TestVecteur.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobotAutonome.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleArene.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleObjet3D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleSauvegardeArene.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleTete.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleTrouverObjet3D.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/exempleTrouverObjet3D.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/exempleVue3DPave.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testCollisionVecteur.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testDeplacementSimple.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testObjet3D_v2.py" />
-      <change beforePath="$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py" afterPath="$PROJECT_DIR$/gl_lib/sim/test/testTriObjets.py" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -148,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -158,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -174,12 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objet3D.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Objet3D.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#49#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AppRobot.py" />
         <option value="$PROJECT_DIR$/affichage/troisD/Camera.py" />
         <option value="$PROJECT_DIR$/affichage/troisD/Window.py" />
         <option value="$PROJECT_DIR$/test/exempleAppRobot.py" />
@@ -257,6 +188,7 @@
         <option value="$PROJECT_DIR$/gl_lib/sim/test/exempleDeplacementSimpleAmeliore.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/AppRobot.py" />
         <option value="$PROJECT_DIR$/gl_lib/sim/test/exempleAppRobot.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -293,29 +225,6 @@
             <path>
               <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="gl_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
-              <item name="geometrie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,16 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d2/interface/interfacePave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/d3/Window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -956,7 +855,7 @@
     <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/pointDansPolygone.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -964,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/gl_lib/sim/affichage/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -980,8 +879,18 @@
     <entry file="file://$PROJECT_DIR$/gl_lib/sim/geometrie/Objet3D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#49#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

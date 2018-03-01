@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
  
 from setuptools import setup, find_packages
-from gurrenlagann_lib import *
- 
+import gl_lib
+
 setup(
  
     name='gl_lib',
