@@ -1,0 +1,17 @@
+Séance du 01/03
+Secrétaire: Ilyes Boussama
+
+- Avancement dans l'objectif démontrable:
+  Application disponible dans test/exempleDeplacementSimpleAmeliore.py
+  Elle utilise le capteur IR, qui présente des disfonctionnements
+
+- Objectifs démontrables semaine prochaine:
+
+  1- Le robot peut s'approcher un maximum d'un obstacle sans le toucher
+
+  2- Le robot peut se déplacer à une balise ("feuille" de 4 couleurs)
+
+  3- Le robot peut dessiner un carré de 70cm de coté
+
+
+	

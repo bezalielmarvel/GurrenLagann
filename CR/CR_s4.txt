@@ -1,0 +1,10 @@
+Séance du 22/02
+Secrétaire: Ilyes Boussama
+
+- Présentation de l'avancement:
+  cf répertoire présentation dans le github
+
+- Objectif démonstratble pour la semaine prochaine:
+  Avoir tous les capteurs opérationnels, et un robot qui en utilise dans une application 2D
+
+
