@@ -1,3 +1,0 @@
-from robotRep.strategie.deplacement.StrategieDeplacement import StrategieDeplacement
-from robotRep.strategie.deplacement.DeplacementSimple import DeplacementSimple
-from robotRep.strategie.deplacement.DeplacementSimpleAmeliore import DeplacementSimpleAmeliore
