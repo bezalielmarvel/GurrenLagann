@@ -1,0 +1,6 @@
+Compte rendu séance 2
+
+
+
+Lors de cette séance nous avons commencé par faire un sprint review de la semaine passée. Nous avons commencé par expliquer les différentes fonctions et classes qui ont été développées pendant ce sprint. Nous avons ensuite réalisé qu’il nous manquait du temps de travail pour réaliser la to do list de la semaine.
+Pendant la séance nous avons commencer à travailler sur de nouvelles taches qui ont été incorporées à la to do list. Et pour finir en fin de séance nous avons défini les nouvelles tâches à faire pendant ce nouveau sprint. 

@@ -1,0 +1,10 @@
+Compte Rendu du TME du 8/02, semaine 3 du Gurren Lagann team:
+	-Présentation de la premiére interface 2d, représentant le Robot comme un carré sur une fênétre, qui avance recule et tourne.
+	Sprint de la semaine 4: 
+		développer l'interface 2d pour qu'elle inclut des obstacles, et introduire le changement de vitesse au déplacement du robot.
+		Tâches principales à réaliser:
+			-Validation de ce qui a était fait avant avec des unitests
+			-Modification du Robot et de l'interface
+			-Ajout des capteurs
+			-Création d'une aréne avec des obstacles aléatoirement positionnés
+			
