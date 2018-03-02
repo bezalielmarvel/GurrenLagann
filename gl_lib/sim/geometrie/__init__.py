@@ -5,4 +5,4 @@ from . import pointDansPolygone
 from .Polygone3D import Polygone3D
 from . import point
 
-__all__=["Arene", "Objet3D", "Pave", "pointDansPolygone","Polygone3D", "pointRep"]
+__all__=["Arene", "Objet3D", "Pave", "pointDansPolygone","Polygone3D", "point"]

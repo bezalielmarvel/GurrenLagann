@@ -7,7 +7,7 @@ class Robot(Objet3D):
     Classe definissant les elements essentiels d'un robot
     """
 
-    def __init__(self, pave, rg, rd, direction, vitesserot=0.01, vitesse=5.0):
+    def __init__(self, pave, rg=Objet3D(), rd=Objet3D(), direction=Vecteur(1,0,0), vitesserot=0.01, vitesse=5.0):
         """
         Constructeur du robot
         
