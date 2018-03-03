@@ -20,3 +20,8 @@ def point_inside_polygon(x,y,poly):
             p1x, p1y = p2x, p2y
         print(poly)
     return inside
+
+
+def point_inside_polygon2(x, y, poly):
+    nvert = len(poly)
+
