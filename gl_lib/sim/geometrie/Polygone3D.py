@@ -6,12 +6,15 @@ class Polygone3D(Objet3D):
     Classe definissant un polygone de facon abstraite
     """
 
-    def __init__(self):
+    def __init__(self,sommets=None,centre=None):
         """
         initialise la liste des sommets
         """
-        Objet3D.__init__(self)
-        self.sommets=list()
+        Objet3D.__init__(self,centre)
+        if sommets:
+            self.sommets=sommets
+        else:
+            self.sommets=list()
 
     def addSommet(self, sommet):
         """

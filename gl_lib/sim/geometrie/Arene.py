@@ -2,6 +2,7 @@ from gl_lib.sim.geometrie.Objet3D import Objet3D
 from gl_lib.sim.geometrie.Pave import *
 from gl_lib.sim.geometrie.pointDansPolygone import point_inside_polygon as pi
 from math import *
+import json
 
 
 class Arene(object):
@@ -9,13 +10,16 @@ class Arene(object):
     Definit une structure de base pour une arene contenant des Objet3D
     """
 
-    def __init__(self, width=100, height=100):
+    def __init__(self, width=100,objets3D=None, height=100):
         """
         objets3D: [Objet3D]
         """
         self.height = int(height)
         self.width = int(width)
-        self.objets3D = list()
+        if objets3D:
+            self.objets3D = objets3D
+        else:
+            self.objets3D = list()
 
     def add(self, objet3D):
         """
@@ -56,37 +60,6 @@ class Arene(object):
                                 matrice2D[i][j] = 1
                                 print(boolean)
                             print(i, j)
-
-    def sauvegarder(self, nomfichier):
-        f = open(nomfichier , "w")
-        f.write("1024 1024\n")
-        for objet in self.objets3D:
-            if issubclass(type(objet), Pave):
-                f.write("PAVE {} {} {}".format(objet.longueur, objet.largeur, objet.hauteur))
-            else:
-                f.write("POLYGONE3D")
-                for som in objet.sommets:
-                    f.write(" ({},{},{})".format(som.x, som.y, som.z))
-            f.write("\n")
-        f.close()
-
-    def lecture_fichier(self, fichier):
-        mon_fichier = open(fichier, "r")
-        for line in mon_fichier.read().splitlines()[1:]:
-            words = line.split();
-            if (words[0] == "POLYGONE3D"):
-                polygone = Polygone3D()
-                for sommet in words[1:]:
-                    sommet_str = sommet.replace("(", "")
-                    sommet_str = sommet_str.replace(")", "")
-                    sommet_tab = sommet_str.split(",")
-                    polygone.addSommet(Point(int(sommet_tab[0]), int(sommet_tab[1]), int(sommet_tab[2])))
-
-                self.add(polygone)
-            if (words[0] == "PAVE"):
-                pave = Pave(int(words[1]),int(words[2]),int(words[3]))
-                self.add(pave)
-        mon_fichier.close()
 
     def __repr__(self):
         """
@@ -160,3 +133,35 @@ class Arene(object):
 
 
         return matrice2D
+    
+
+
+    def sauvegardeArenejson(self, fichier):
+
+        """sauvegardeArene(Arene) prend une aréne en paramétre la convertie au format Json et l'enregiste dans un fichier texte"""
+
+        def my_enc(obj):
+            dic = dict(obj.__dict__)
+            dic.update({"__class":obj.__class__.__name__})
+            return dic
+
+        if(issubclass(Arene,type(self))==False):
+           print("sauvegarde Arene prend une Aréne en paramétre");
+           return None
+        f = open(fichier,'w')
+        areneJson=json.dump(self,f,indent=4,sort_keys=True,default=my_enc)
+        f.close()
+
+    def lireArenejson(self,fichier):
+
+        def my_hook(dic):
+            if "__class" in dic:
+                cls = dic.pop("__class" )
+                return eval(cls)(**dic)
+            return dic
+
+        f = open(fichier,"r")
+        obj = json.load(f,object_hook=my_hook)
+        return obj
+
+

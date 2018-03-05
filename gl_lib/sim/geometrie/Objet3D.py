@@ -6,11 +6,14 @@ class Objet3D(object):
     Classe definissant un objet 3D de facon abstraite
     """
 
-    def __init__(self):
+    def __init__(self, centre=None):
         """
         centre : Point definissant le centre de l'objet. initialise a (0, 0, 0)
         """
-        self.centre = Point(0, 0, 0)
+        if centre:
+            self.centre = centre
+        else:
+            self.centre = Point(0, 0, 0)
 
     def deplacer(self, vecteur):
         """
