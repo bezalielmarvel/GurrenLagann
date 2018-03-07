@@ -122,11 +122,14 @@ class Arene(object):
                     else :
                         angle = segment.getAngle2D()
                     for x in range(int( min(pointA.x , pointB.x) + width / 2 ) ,int ( max(pointB.x , pointA.x) + width / 2 )  ) :
-                        matrice2D[int(x)][int( (x - pointA.x - width/2) * tan(angle)  + height/2 + pointA.y)] = i
-                        matrice2D[int(x)][int( (x - pointA.x - width /2) * tan(angle) + height / 2 + pointA.y) -1] = i
+                        if  (x - pointA.x - width/2) * tan(angle) + pointA.y < height and (x - pointA.x - width/2) * tan(angle) + height/2 + pointA.y > 0 :
+                            matrice2D[int(x)][int( (x - pointA.x - width/2) * tan(angle)  + height/2 + pointA.y)] = i
+                            matrice2D[int(x)][int( (x - pointA.x - width /2) * tan(angle) + height / 2 + pointA.y -1)] = i
+
                     for y in range(int( min(pointA.y , pointB.y) + height/2 ) ,int ( max(pointB.y , pointA.y) + height/2  )) :
-                        matrice2D[int( (y - pointA.y - height/2)/tan(angle)  + width/2 + pointA.x )][int(y)] = i
-                        matrice2D[int( (y - pointA.y - height/2) / tan(angle) + width / 2 + pointA.x) - 1 ][int(y)] = i
+                        if (y - pointA.y - height/2)/tan(angle)  + width/2 + pointA.x  > 0 and (y - pointA.y - height/2)/tan(angle)  + pointA.x  < width :
+                            matrice2D[int( (y - pointA.y - height/2)/tan(angle)  + width/2 + pointA.x )][int(y)] = i
+                            matrice2D[int( (y - pointA.y - height/2) / tan(angle) + width / 2 + pointA.x) - 1 ][int(y)] = i
 
                     j += 1
                     if j == 4 : j = 0
