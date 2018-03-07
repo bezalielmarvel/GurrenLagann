@@ -1,5 +1,4 @@
 import sys
-sys.path.insert(0, "/Users/Macbook pro/PycharmProjects/GurrenLagann-dev")
 
 from pyglet.gl import *
 from pyglet.window import key
