@@ -18,12 +18,13 @@ class CapteurIR (Capteur) :
         """
         mat = arene.vueDessus2(arene.height , arene.width)
         i = 0
+        print( arene.height , arene.width)
         #l'equation de la droite du signale envoyé par le capteur : Y = alpha * (X - self.position.x) + self.position.y
         alpha = self.direction.getAngle2D()
         if (alpha < pi/3 and alpha > -pi/3):
             # print("a droite pres de OX")
             for x in range(int( self.position.x + arene.width/2) ,int(arene.width + arene.width/2)) :
-                if (tan(alpha) * (x - self.position.x -arene.width/2) + self.position.y + arene.height/2) > 0:
+                if (tan(alpha) * (x - self.position.x -arene.width/2) + self.position.y + arene.height/2) >= 0 and (tan(alpha) * (x - self.position.x -arene.width/2) + self.position.y ) < arene.height :
                     if mat[x][int(tan(alpha) * (x - self.position.x -arene.width/2 ) + self.position.y + arene.height/2) ] != '.' :
                         return sqrt( pow(x - self.position.x - arene.width/2 , 2) + pow(tan(alpha) * (x - self.position.x - arene.width/2), 2)) , mat
                     else :
@@ -43,6 +44,20 @@ class CapteurIR (Capteur) :
                     i += 1
 
         elif ( alpha < 0 and alpha > -pi):
+            # print("en haut") les prints c'est pour les tests
+            for y in reversed(range(0, int(self.position.y + arene.height / 2))):
+                if (y - arene.height / 2 - self.position.y) / tan(alpha) + self.position.x + arene.width / 2 > 0:
+                    if \
+                    mat[int((y - arene.height / 2 - self.position.y) / tan(alpha) + self.position.x + arene.width / 2)][
+                        y] != '.':
+                        return sqrt(pow(y - self.position.y - arene.width / 2, 2) + pow(
+                            (y - self.position.y - arene.height / 2) / tan(alpha), 2)), mat
+                    else:
+                        mat[int(
+                            (y - arene.height / 2 - self.position.y) / tan(alpha) + self.position.x + arene.width / 2)][
+                            y] = i
+                    i -= 1
+        else :
             # print("en bas ")
             for y in range(int (self.position.y + arene.height/2) , int (arene.height + arene.height/2)) :
                 if (y - arene.height / 2 - self.position.y) / tan(alpha) + self.position.x + arene.width / 2 > 0:
@@ -53,15 +68,7 @@ class CapteurIR (Capteur) :
                     i -= 1
                 else :
                     return -2, mat
-        else :
-            # print("en haut") les prints c'est pour les tests
-            for y in reversed(range(0 , int (self.position.y + arene.height/2 ))):
-                if (y - arene.height / 2 - self.position.y) / tan(alpha) + self.position.x + arene.width / 2 > 0:
-                    if mat[ int ((y - arene.height/2 - self.position.y) / tan(alpha)  + self.position.x + arene.width/2 )][y] != '.' :
-                        return sqrt(pow(y - self.position.y - arene.width/2, 2) + pow((y - self.position.y - arene.height/2)/tan(alpha)  , 2) ) , mat
-                    else :
-                        mat[int ((y - arene.height/2 - self.position.y) / tan(alpha)  + self.position.x + arene.width/2 )][y] = i
-                    i -= 1
+
 
         return -1 , mat
 
