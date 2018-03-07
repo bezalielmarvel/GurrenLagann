@@ -74,6 +74,8 @@ class AppRobot(Tk):
         """
         Met a jour les vitesses
         """
+        dist = self.robot.tete.lcapteurs[0].mesure(self.arene.arene)
+        print(dist[0])
         self.robot.vitesse=float(self.vitesse.get())
         self.robot.vitesseRot=float(self.vitesseRot.get())
         self.canvas.delete(ALL)
