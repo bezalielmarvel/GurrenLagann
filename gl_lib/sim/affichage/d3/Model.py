@@ -21,8 +21,13 @@ class Model:
 
     def visualiser(self, arene, batch):
 
+        txtr_balise = self.get_tex('balise.png')
         txtr_red = self.get_tex('white.png')
         txtr_white = self.get_tex('white.png')
+
+        balise = Pave(10, 10, 0)
+        balise.deplacer(Vecteur(-10, 24, 24))
+        self.dessine_pave(balise, txtr_balise, self.batch)
 
         pave_arene = Pave(arene.width,arene.height,50)
         self.dessine_pave(pave_arene,txtr_white, self.batch)

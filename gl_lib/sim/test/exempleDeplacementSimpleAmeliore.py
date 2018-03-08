@@ -14,6 +14,7 @@ p.deplacer(point.Vecteur(200, 200, 0))
 a.add(r)
 a.add(p)
 
+
 app=interface.AppRobotAutonome(r, vue.Vue2DArene(a))
 app.init()
 

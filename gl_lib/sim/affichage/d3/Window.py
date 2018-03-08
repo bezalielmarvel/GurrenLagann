@@ -4,6 +4,7 @@ import math
 from gl_lib.sim.affichage.d3.Camera import *
 from gl_lib.sim.geometrie.point import Point
 from gl_lib.sim.affichage.d3.Model import *
+from PIL import Image
 
 class Window(pyglet.window.Window):
 
@@ -59,6 +60,10 @@ class Window(pyglet.window.Window):
 
         elif KEY == key.SPACE:
             pyglet.image.get_buffer_manager().get_color_buffer().save('../../screenshot/screenshot.png')
+            im = Image.open("../../screenshot/screenshot.png")
+            im.show()
+            print(im.getcolors())
+            print(im.getpalette())
 
     def update(self,dt):
         self.camera.update(dt,self.keys)

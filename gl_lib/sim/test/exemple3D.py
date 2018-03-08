@@ -8,17 +8,19 @@ from gl_lib.sim.geometrie.Pave import *
 from gl_lib.sim.geometrie.Arene import *
 from gl_lib.sim.robot import *
 
+Pave1 = Pave(30, 10, 10)
+Pave1.deplacer(Vecteur(-10,0,0))
 
-Pave1 = Pave(10, 30, 10)
 Pave2 = Pave(15, 25, 12)
+Pave2.deplacer(Vecteur(-17,-10,0))
+
 arene = Arene(50, 50)
 
-pave3 = Pave(10, 10, 10)
+pave3 = Pave(10 , 10 , -30)
 roboPh = RobotPhysique(pave3)
-
 roboPh.deplacer(Vecteur(-10,-10,10))
-robo = [[roboPh.centre.x,roboPh.centre.y,roboPh.centre.z],[90,90]]
 
+robo = [[roboPh.centre.x,roboPh.centre.y,roboPh.centre.z],[90,90]]
 
 arene.objets3D=[Pave1,Pave2]
 window = Window(arene=arene,robo=robo)
