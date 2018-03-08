@@ -1,0 +1,7 @@
+cd troisD
+
+MacBook-Pro-Valentyn:troisD Valentyn$ export PYTHON_PATH=/Users/Valentyn/UPMC/2I013/GurrenLagann-dev
+
+MacBook-Pro-Valentyn:troisD Valentyn$ /usr/local/bin/python3.6 Main.py
+
+MacBook-Pro-Valentyn: /usr/local/bin/python3.6 Main.py & /usr/local/bin/python3.6 ../../test/exempleAppRobot.py

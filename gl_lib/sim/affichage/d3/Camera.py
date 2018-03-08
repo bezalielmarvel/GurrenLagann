@@ -1,5 +1,6 @@
 from pyglet.gl import *
 from pyglet.window import key
+from gl_lib.sim.geometrie.point import Point
 import math
 
 class Camera:
@@ -13,27 +14,16 @@ class Camera:
         dx/=10
         dy/=10
 
-        #self.rot[0]+=dy
-        self.rot[1]-=dx
-        if self.rot[0]>90:
-            self.rot[0] = 90
-        elif self.rot[0]<-90:
-            self.rot[0] = -90
+        self.rot[0]-=dx
 
     def update(self,dt,keys):
 
-        """vitesse du robot"""
         s = dt*10
 
-        rotY = -self.rot[1]/180*math.pi
+        rotY = -self.rot[0]/180*math.pi
         dx,dz = s*math.sin(rotY),s*math.cos(rotY)
-        if keys[key.Z]: self.pos[0]+=dx; self.pos[2]-=dz
-        if keys[key.S]: self.pos[0]-=dx; self.pos[2]+=dz
-        #if keys[key.A]: self.poas[0]-=dz; self.pos[2]-=dx
-        #if keys[key.D]: self.pos[0]+=dz; self.pos[2]+=dx
-
-        #if keys[key.SPACE]: self.pos[1]+=s
-        #if keys[key.LSHIFT]: self.pos[1]-=s
+        if keys[key.W]: self.pos[1]+=dx; self.pos[2]-=dz
+        if keys[key.S]: self.pos[1]-=dx; self.pos[2]+=dz
 
     def on_key_press(self,KEY,MOD):
        if KEY == key.SPACE:

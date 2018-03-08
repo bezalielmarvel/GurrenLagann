@@ -3,6 +3,7 @@ from pyglet.window import key
 import math
 from gl_lib.sim.geometrie.Pave import *
 from gl_lib.sim.geometrie.Arene import *
+from gl_lib.sim.geometrie.Objet3D import *
 
 class Model:
 
@@ -12,54 +13,60 @@ class Model:
         glTexParameterf(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_NEAREST)
         return pyglet.graphics.TextureGroup(tex)
 
-    def __init__(self):
-        Pave1 = Pave(10, 8, 30)
-
-        Pave2 = Pave(15, 6, 25)
-
-        Pave3 = Pave(7, 7, 7)
-
-        arene = Arene(70,70)
-        #arene.objets3D = [Pave1, Pave2]
-        arene.add(Pave1)
-        arene.add(Pave2)
-        arene.add(Pave3)
-
-        self.side = self.get_tex('white.png')
+    def __init__(self,arene):
 
         self.batch = pyglet.graphics.Batch()
 
+        self.visualiser(arene, self.batch)
+
+    def visualiser(self, arene, batch):
+
+        txtr_red = self.get_tex('white.png')
+        txtr_white = self.get_tex('white.png')
+
+        pave_arene = Pave(arene.width,arene.height,50)
+        self.dessine_pave(pave_arene,txtr_white, self.batch)
+
+        for objet in arene.objets3D:
+            self.dessine_pave(objet,txtr_red, self.batch)
+        return
+
+    def dessine_pave(self, objet, texture, batch):
+
         tex_coords = ('t2f', (0, 0, 0, 1, 1, 1, 1, 0))
 
-        x,y,z = 0, 0, 0
-        X,Y,Z = x+30, y+20, z+50
+        self.batch = batch
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[0].x, objet.sommets[0].y, objet.sommets[0].z,
+                                                      objet.sommets[1].x, objet.sommets[1].y, objet.sommets[1].z,
+                                                      objet.sommets[2].x, objet.sommets[2].y, objet.sommets[2].z,
+                                                      objet.sommets[3].x, objet.sommets[3].y, objet.sommets[3].z)), tex_coords)
 
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, z, x, y, Z, x, Y, Z, x, Y, z,)), tex_coords)
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (X, y, Z, X, y, z, X, Y, z, X, Y, Z,)), tex_coords)
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, z, X, y, z, X, y, Z, x, y, Z,)), tex_coords)
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, Y, Z, X, Y, Z, X, Y, z, x, Y, z,)), tex_coords)
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (X, y, z, x, y, z, x, Y, z, X, Y, z,)), tex_coords)
-        self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, Z, X, y, Z, X, Y, Z, x, Y, Z,)), tex_coords)
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[0].x, objet.sommets[0].y, objet.sommets[0].z,
+                                                      objet.sommets[3].x, objet.sommets[3].y, objet.sommets[3].z,
+                                                      objet.sommets[7].x, objet.sommets[7].y, objet.sommets[7].z,
+                                                      objet.sommets[4].x, objet.sommets[4].y, objet.sommets[4].z)), tex_coords)
 
-        self.visualiser(arene)
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[1].x, objet.sommets[1].y, objet.sommets[1].z,
+                                                      objet.sommets[5].x, objet.sommets[5].y, objet.sommets[5].z,
+                                                      objet.sommets[6].x, objet.sommets[6].y, objet.sommets[6].z,
+                                                      objet.sommets[2].x, objet.sommets[2].y, objet.sommets[2].z)), tex_coords)
 
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[4].x, objet.sommets[4].y, objet.sommets[4].z,
+                                                      objet.sommets[5].x, objet.sommets[5].y, objet.sommets[5].z,
+                                                      objet.sommets[6].x, objet.sommets[6].y, objet.sommets[6].z,
+                                                      objet.sommets[7].x, objet.sommets[7].y, objet.sommets[7].z)), tex_coords)
 
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[0].x, objet.sommets[0].y, objet.sommets[0].z,
+                                                      objet.sommets[4].x, objet.sommets[4].y, objet.sommets[4].z,
+                                                      objet.sommets[5].x, objet.sommets[5].y, objet.sommets[5].z,
+                                                      objet.sommets[1].x, objet.sommets[1].y, objet.sommets[1].z)), tex_coords)
 
-    def visualiser(self,arene):
-        for i in arene.objets3D:
-            x,y,z = i.sommets[0].x, i.sommets[0].y, i.sommets[0].z
-            X,Y,Z = i.longueur, i.largeur, i.hauteur
+        self.batch.add(4, GL_QUADS, texture, ('v3f', (objet.sommets[3].x, objet.sommets[3].y, objet.sommets[3].z,
+                                                      objet.sommets[2].x, objet.sommets[2].y, objet.sommets[2].z,
+                                                      objet.sommets[6].x, objet.sommets[6].y, objet.sommets[6].z,
+                                                      objet.sommets[7].x, objet.sommets[7].y, objet.sommets[7].z)), tex_coords)
 
-            self.side = self.get_tex('Red.svg.png')
-
-            tex_coords = ('t2f', (0, 0, 0, 1, 1, 1, 1, 0))
-
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, z, x, y, Z, x, Y, Z, x, Y, z,)), tex_coords)
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (X, y, Z, X, y, z, X, Y, z, X, Y, Z,)), tex_coords)
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, z, X, y, z, X, y, Z, x, y, Z,)), tex_coords)
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, Y, Z, X, Y, Z, X, Y, z, x, Y, z,)), tex_coords)
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (X, y, z, x, y, z, x, Y, z, X, Y, z,)), tex_coords)
-            self.batch.add(4, GL_QUADS, self.side, ('v3f', (x, y, Z, X, y, Z, X, Y, Z, x, Y, Z,)), tex_coords)
+        # self.batch.add(4, GL_QUADS, self.side, ('v3f') + objet.sommets[0].toTuple() + objet.sommets[2].toTuple() + objet.sommets[3].toTuple(), tex_coords)
         return
 
 
